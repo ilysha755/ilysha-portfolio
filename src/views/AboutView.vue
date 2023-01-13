@@ -5,7 +5,7 @@
         <div class="about__text">
           <h1 class="about__text--h1">About <span class="about__text--accent">Me</span></h1>
           <p class="about__text--p">Hi! I am Ilya Rubtcov, Frontend developer. I create user interfaces. My main task is to create products for a million users. In my free time I travel or create a small car project :)</p>
-          <a href="#" class="about__text_cv btn">View CV</a>
+          <a href="https://github.com/ilysha755/ilysha-portfolio/blob/main/src/assets/ilya755.pdf" target="_blank" class="about__text_cv btn">View CV</a>
         </div>
       </div>
     </section>
