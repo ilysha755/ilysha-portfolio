@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+//body
+$body-color:#000;
+
+//text
+$accent-color:#E40037;
+
+//transition
+$transition:all 0.4s ease-in-out;
+
+//text
+ 
+$text-xl-bold:500 28px  'Poppins', sans-serif;
+$text-xl-light:300 28px  'Poppins', sans-serif;
+$text-l-bold:500 24px 'Poppins', sans-serif;
+$text-l-light:300 24px 'Poppins', sans-serif;
+$text-m-bold:500 20px 'Poppins', sans-serif;
+$text-m-light:300 20px 'Poppins', sans-serif;
+$text-s-bold:500 18px 'Poppins', sans-serif;
+$text-s-light:300 18px 'Poppins', sans-serif;
+$text-xs-bold:500 12px 'Poppins', sans-serif;
+$text-xs-light:300 12px 'Poppins', sans-serif;
+
+
+
+
+
+
+//sizes
+$grid-width-min:  320px;
+$screen-min:      0;
+$screen-xs:       375px;
+$screen-sm:       480px;
+$screen-md:       768px;
+$screen-lg:       992px;
+$screen-xl:       1200px;
+$screen-xxl:      1400px;
+$screen-xxxl:     1600px;
