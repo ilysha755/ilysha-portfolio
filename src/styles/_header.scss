@@ -5,7 +5,12 @@
     left: 0;
     top: 0;
     z-index: 10;
+    transition: $transition;
 
+    &--black{
+        background-color: rgba(0, 0, 0, 0.9);
+        transition: $transition;
+    }
     &__wrap {
         display: flex;
         justify-content: space-between;
@@ -30,26 +35,16 @@
     }
 
     &__nav {
+        max-width: 310px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+    &--ul{
         display: none;
         justify-content: space-between;
         align-items: center;
         position: relative;
-
-        &_list {
-            margin: 0;
-            padding: 0;
-
-        }
-
-
-
-        &_item {
-            &--link{
-                font: $text-l-bold;
-
-            }
-        }
-
         @media (min-width: $screen-md) {
             display: flex;
             max-width: 310px;
@@ -57,11 +52,81 @@
 
         }
 
-       
+        }
+
+        &_list {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        &_item {
+            &--link{
+                font: $text-l-bold;
+                color: #fff;
+
+            }
+
+            &--mobile{
+                margin-bottom: 20px;
+            }
+
+        }
+
+    }
+    &__burger{
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: $accent-color;
+        position: absolute;
+        right: 10px;
+        top: 40px;
+        border-radius: 12px;
+        z-index: 10;
+        transition: $transition;
+        &::before{
+            content: "";
+            width: 35px;
+            height: 5px;
+            position: absolute;
+            right: 0px;
+            bottom: 10px;
+            border-radius: 12px;
+            background-color: #fff;
+            transition: $transition;
+
+        }
+        &::after{
+            content: "";
+            width: 35px;
+            height: 5px;
+            position: absolute;
+            right: 0px;
+            top: 10px;
+            border-radius: 12px;
+            background-color: #fff;
+            transition: $transition;
+
+        }
+
+        @media (min-width: $screen-md) {
+            display: none;
+        }
+        &--open{
+            transition: $transition;
+            transform: rotate(45deg);
+            &::before,&::after{
+                transform: rotate(-90deg);
+                top: 0;
+                bottom: 0;
+            }
+        }
     }
 }
 .mobile{
-    &--active{
+
+    &__nav{
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -75,14 +140,16 @@
 
     }
     &__nav{
-        &--active{
+        &_list{
             width: 50%;
             height: 100vh;  
             display: flex;
             align-items: center;
-            flex-direction: column; 
+            flex-direction: column;
+            justify-content: center;
             background-color: #000;
 
         }
-    } 
+    }
+
 }

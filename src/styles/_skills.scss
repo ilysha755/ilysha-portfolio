@@ -1,8 +1,7 @@
 .skills {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 
     &__container{
-
     }
 
     &__list {
@@ -11,13 +10,20 @@
             grid-template-columns: 1fr 1fr;
             gap: 20px;
         }
+        &--h3{
+            @media (min-width: $screen-md) {
+                font: $text-xl-bold;
+            }
+        }
+        &--span{
+            font: $text-xl-bold;
+
+        }
     }
 
-    // .skills__item
 
     &__item {
 
-        // .skills__item_bar
 
         &_bar {
             width: 100%;
@@ -27,13 +33,12 @@
 
         }
 
-        // .skills__item_bar--progress
 
         &_bar--progress {
             position: absolute;
             left: 0;
             top: 0;
-            width: 70%;
+            //width: 70%;
             height: 30px;
             background-color: $accent-color;
 
@@ -44,6 +49,7 @@
             @media (min-width: 550px) {
                 font: $text-l-bold;
             }
+
         }
     }
 

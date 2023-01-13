@@ -1,0 +1,123 @@
+{
+  "commercialProjects": [
+    {
+      "id": 0,
+      "name": "Katok VDNH",
+      "image": "katok",
+      "development":false,
+      "link": "https://katok.vdnh.ru/",
+      "desc": "The website for the VDNH skating rink was completed in the shortest possible time. I have made the pages and the entire js",
+      "techs": {
+        "tech1": "Bitrix/PHP",
+        "tech2": "SCSS",
+        "tech3": "JS"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Official VDNH",
+      "image": "official",
+      "development":true,
+      "link": "https://official.vdnh.ru/",
+      "desc": "The official website of VDNH is currently under development, I have made the pages and the entire js",
+      "techs": {
+        "tech1": "Bitrix/PHP",
+        "tech2": "SCSS",
+        "tech3": "JS"
+      }
+    },
+    {
+      "id": 2,
+      "name": "VDNH Stela",
+      "image": "stela",
+      "development":true,
+      "link": null,
+      "desc": "Information steles that are located throughout the territory of VDNH. I've done code refactoring, event filtering, and minor UI/UX improvements.",
+      "techs": {
+        "tech1": "HTML",
+        "tech2": "SCSS",
+        "tech3": "JS"
+      }
+    },
+    {
+      "id": 3,
+      "name": "VDNH",
+      "image": "vdnh",
+      "development":false,
+      "desc": "VDNH website, I have completed some pages and rewritten the map script",
+      "link": "https://vdnh.ru/",
+      "techs": {
+        "tech1": "Bitrix/PHP",
+        "tech2": "SCSS",
+        "tech3": "JS"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Light media",
+      "image": "light",
+      "development":false,
+      "link": "https://lightmedia.ru/",
+      "desc": "The website of a web studio from St. Petersburg, I have done all the layout, animations",
+      "techs": {
+        "tech1": "Vue/VUEX",
+        "tech2": "SCSS",
+        "tech3": "JS"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Car spot",
+      "image": "carspot",
+      "development":false,
+      "link": "https://car-spot.ru/",
+      "desc": "A website for the sale of cars, I have made the pages and the entire js",
+      "techs": {
+        "tech1": "PHP",
+        "tech2": "SCSS",
+        "tech3": "JS"
+      }
+    },
+    {
+      "id": 6,
+      "name": "KNR cars",
+      "image": "knrcars",
+      "development":false,
+      "link": "https://knrcars.ru/",
+      "desc": "A website for the sale of cars, I have made the pages and the entire js",
+      "techs": {
+        "tech1": "PHP",
+        "tech2": "SCSS",
+        "tech3": "JS"
+      }
+    },
+    {
+      "id": 7,
+      "name": "CarPro",
+      "image": "carpro",
+      "development":false,
+      "link": "https://car-pro.su/",
+      "desc": "A website for the sale of cars, I have made the pages and the entire js",
+      "techs": {
+        "tech1": "PHP",
+        "tech2": "SCSS",
+        "tech3": "JS"
+      }
+    }
+  ],
+  "funProjects": [
+    {
+      "id": 8,
+      "name": "car CRM",
+      "image": "carcrm",
+      "development":true,
+      "fun":true,
+      "link":"https://github.com/ilysha755/car_crm",
+      "desc": "Crm for the sale of cars. This is a testing ground for my learning and crazy ideas :)",
+      "techs": {
+        "tech1": "Vue/VUEX",
+        "tech2": "SCSS"
+      }
+    }
+  ]
+}

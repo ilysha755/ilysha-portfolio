@@ -1,0 +1,32 @@
+.nf{
+    margin-top: 120px;
+
+    @media (min-width: $screen-md) {
+    margin-top: 200px;
+    }
+
+    &__container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: calc(100vh - 218px);
+
+        @media (min-width: $screen-md) {
+
+            height: 100%;
+        }
+    }
+
+
+    .photobox{
+        margin-bottom: 50px;
+
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font: $text-s-bold;
+    }
+}

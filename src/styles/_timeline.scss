@@ -2,13 +2,17 @@
     &__container{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
 
+        @media (min-width: $screen-md) {
+        align-items: center;
+        }
         @media (min-width: 1073px) {
             flex-direction: row;
             gap: 20px;
             justify-content: space-between;
+
         }
     }
     &__block {
@@ -33,10 +37,12 @@
 
     &__item {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-bottom: 20px;
         max-width: 400px;
-
+        @media (min-width: 550px){
+            justify-content: space-between;
+        }
         &_left {
             display: flex;
             align-items: center;
@@ -92,24 +98,42 @@
 
         &_time {
             font: $text-xs-bold;
+            max-width: 76px;
             @media (min-width: 550px) {
                 font: $text-m-bold;
                
         }
+            @media (min-width: 550px){
+                max-width: 112px;
+            }
     }
         &_right {
             font: $text-xs-bold;
+            max-width: 135px;
+            width: 100%;
+            text-align: start;
 
+            @media (min-width: 550px){
+                max-width: 320px;
+            }
             &--speciality {
                 color: #fff;
                 font: $text-xs-light;
 
             }
+            &--long{
+                max-width: 320px;
+                @media (min-width: $grid-width-min) {
+                    max-width:102px;
+                }
+                @media (min-width: 550px){
+                    max-width: 320px;
+                }
+            }
             @media (min-width: 550px) {
                 font: $text-m-bold;
                 &--speciality{
                     font: $text-m-light;
-
                 }
             }
         }

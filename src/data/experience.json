@@ -1,0 +1,96 @@
+{
+  "education": [
+    {
+      "id": 0,
+      "year": "sep 2016 - present",
+      "name": "RUC",
+      "speciality": "System of e-commerce"
+    },
+    {
+      "id": 1,
+      "year": "sep 2016 - nov 2021",
+      "name": "KKKMT",
+      "speciality": "Car mechanic"
+    },
+    {
+      "id": 2,
+      "year": "sep 2016 - nov 2020",
+      "name": "KKKMT",
+      "speciality": "Operator of CNC machines"
+    }
+
+  ],
+  "work": [
+    {
+      "id": 0,
+      "year": "jul 2022 - present",
+      "name": "VDNH",
+      "speciality": "Web-developer"
+    },
+    {
+      "id": 1,
+      "year": "jan 2022 - jul 2022",
+      "name": "Lion",
+      "speciality": "Frontend developer"
+    },
+    {
+      "id": 2,
+      "year": "mar 2021 - jun 2021",
+      "name": "VTB bank",
+      "speciality": "Credit specialist"
+    },
+    {
+      "id": 3,
+      "year": "dec 2019 - mar 2021",
+      "name": "Tinkoff bank",
+      "speciality": "Back office specialist"
+    }
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": "HTML",
+      "progress": "80%"
+    },
+    {
+      "id": 1,
+      "name": "CSS/SCSS",
+      "progress": "80%"
+    },
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "progress": "60%"
+    },
+    {
+      "id": 3,
+      "name": "Vue/VUEX",
+      "progress": "60%"
+    },
+    {
+      "id": 4,
+      "name": "Webpack",
+      "progress": "50%"
+    },
+    {
+      "id": 5,
+      "name": "GIT",
+      "progress": "50%"
+    },
+    {
+      "id": 6,
+      "name": "Figma/Photoshop",
+      "progress": "30%"
+    },
+    {
+      "id": 7,
+      "name": "Bitrix/PHP(integration)",
+      "progress": "30%"
+    },
+    {
+      "id": 8,
+      "name": "Coming soon...",
+      "progress": "20%"
+    }
+  ]
+}

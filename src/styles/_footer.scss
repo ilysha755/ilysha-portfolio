@@ -4,8 +4,11 @@
     bottom: 0;
     width: 100%;
     z-index: 10;
+    transition: $transition;
+
     &--black{
     background-color: rgba(0, 0, 0, 0.9);
+        transition: $transition;
 
     }
 

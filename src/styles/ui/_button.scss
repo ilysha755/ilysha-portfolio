@@ -11,3 +11,30 @@
     font: $text-s-bold;
     cursor: pointer;
 }
+.modal__btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 72px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: $accent-color;
+    color: #fff;
+    font: $text-xs-bold;
+
+}
+.btn--long{
+    @extend .btn;
+    max-width: 100%;
+}
+.dev__pill{
+    @extend .btn;
+    background-color: rgb(85, 240, 101);
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: #000;
+    font: $text-m-bold;
+    font-size: 14px;
+}
