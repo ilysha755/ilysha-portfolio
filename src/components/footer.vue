@@ -25,9 +25,9 @@ export default {
     return{
       contacts:[
         {icon:"github",link:"https://github.com/ilysha755"},
-        {icon:"phone",link:"+79161597174"},
+        {icon:"phone",link:"tel:+79161597174"},
         {icon:"telegram",link:"https://t.me/ilysha755"},
-        {icon:"e-mail",link:"ilyarubtcov755@gmail.com"}
+        {icon:"e-mail",link:"mailto:ilyarubtcov755@gmail.com"}
       ]
     }
   },

@@ -10,6 +10,7 @@
     &--black{
         background-color: rgba(0, 0, 0, 0.9);
         transition: $transition;
+        
     }
     &__wrap {
         display: flex;
@@ -19,8 +20,6 @@
         z-index: 3;
        
     }
-
-
 
     &__name,  &__name--accent {
         position: relative;
