@@ -10,7 +10,8 @@ const routes = [
     name: 'home',
     component: HomeView,
     meta:{
-      footerStyle:'footer'
+      footerStyle:'footer',
+      imgName:"mainImage"
     }
   },
   {
@@ -18,7 +19,8 @@ const routes = [
     name: 'about',
     component: aboutView,
     meta:{
-      footerStyle:'footer footer--black'
+      footerStyle:'footer footer--black',
+      imgName:"aboutImage"
     }
   },
   {
@@ -34,7 +36,8 @@ const routes = [
     name: 'Not Found',
     component:notFound,
     meta:{
-      footerStyle:'footer'
+      footerStyle:'footer',
+      imgName:"notFound"
     }
   }
 ]
