@@ -8,12 +8,6 @@
 <script>
 export default {
   name: "photoBox",
-  data(){
-    return{
-    imgName: null
-    }
-  }
-
 }
 </script>
 
