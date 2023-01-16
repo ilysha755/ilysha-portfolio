@@ -13,21 +13,7 @@ export default {
     imgName: null
     }
   }
-  // ,
-  // mounted() {
-  //   let location = window.location.pathname
-  // switch (location){
-  //   case "/":
-  //     this.imgName = "mainImage"
-  //     break;
-  //   case "/about":
-  //     this.imgName = "aboutImage"
-  //     break;
-  //   default:
-  //   this.imgName = "notFound"
 
-  // }
-  // }
 }
 </script>
 

@@ -38,23 +38,44 @@
             width: 430px;
             height: 430px;
         }
-    }
-
-    &__round--animate {
-        position: absolute;
-        left: 30px;
-        top: 1%;
-        width: 190px;
-        height: 190px;
-        border: 40px solid $accent-color;
-        border-radius: 50%;
-        z-index: 1;
-        @media (min-width:$screen-md) {
-            left: 9px;
-            top:initial;
-            bottom: 0%;
-            width: 430px;
-            height: 430px;
+        &--animate {
+            position: absolute;
+            left: 30px;
+            top: 1%;
+            width: 190px;
+            height: 190px;
+            border: 40px solid $accent-color;
+            border-radius: 50%;
+            z-index: 1;
+            animation: round 10s ease-in-out infinite; 
+            @media (min-width:$screen-md) {
+                left: 9px;
+                top:initial;
+                bottom: 0%;
+                width: 430px;
+                height: 430px;
+            }
         }
     }
+}
+@keyframes round {
+   0%{
+    filter: blur(10px);
+   }
+   20%{
+    filter: blur(30px);
+   }
+   50%{
+    filter: blur(60px);
+   }
+   60%{
+    filter: blur(40px);
+   }
+   80%{
+    filter: blur(30px);
+    
+   }
+   100%{
+    filter: blur(10px);
+   }
 }
